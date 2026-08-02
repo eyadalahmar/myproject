@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+    :root {
+      --clr-neutral: hsl(0, 0%, 100%);
+      --Slate-300: hsl(212, 45%, 89%);
+      --Slate-500: hsl(216, 15%, 48%);
+      --Slate-900: hsl(218, 44%, 22%);
+    }
+
+    #card {
+      padding: 1rem;
+      width: calc(320px - 2rem);
+      padding-bottom: 0;
+      background-color: var(--clr-neutral);
+      border-radius: 20px;
+      padding-bottom: 2.5rem;
+
+    }
+*{
+  font-family: Outfit !important;
+
+}
+body {
+  background-color: var(--Slate-300);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    img {
+      width: 288px;
+      margin: 0 auto;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+    }
+
+    #arti {
+      text-align: center;
+      margin-inline: 1rem;
+      font-size: 15px;
+      line-height: 140%;
+      color: var(--Slate-500);
+      font-weight: 400;
+    }
+
+    h2 {
+      font-size: 22px;
+      line-height: 120%;
+      margin: -0;
+      color: var(--Slate-900);
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="card">
+    <img src="./images/image-qr-code.png" alt="QR code" />
+    <div id="arti">
+      <h2>Improve your front-end skills by building projects</h2>
+
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </div>
+  </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Eyad Al-Ahmar</a>.
+  </footer>
+</body>
+
+</html>
